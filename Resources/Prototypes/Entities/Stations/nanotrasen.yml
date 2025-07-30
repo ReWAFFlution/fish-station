@@ -38,6 +38,7 @@
     - BaseStationMeteorSwarmTarget
     - BaseStationRandomXenoArtifact
   # Sunrise-End
+    - BaseStationFishShuttles
   components:
     - type: Transform
 
@@ -52,14 +53,15 @@
     - BaseStationJobsSpawning
     # Sunrise-Start
     - BaseCentCommShuttles
-    - BaseStationImmortal
+    # - BaseStationImmortal #Fish-edit
     - BaseStationDontSelling
     - BaseStationCryoTeleport
     # Sunrise-End
+    - BaseStationFishSpecOpsShuttles #Fish-edit
   components:
     - type: Transform
-    - type: ProtectedGrid
-    - type: UnbuildableGrid
+    # - type: ProtectedGrid #Fish-edit
+    # - type: UnbuildableGrid #Fish-edit
 
 - type: entity
   id: StandardStationArena
